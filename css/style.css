@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', cursive;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(231, 233, 234); 
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.btn-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.btns {
+  display: inline-block;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.div-btn {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 45px;
+}
+
+button {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 12px 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.1s ease;
+  border: none;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+/* Button left */
+/* Button 1 */
+.btn-1-left {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+               3px 3px 5px 1px rgba(94, 104, 121, .288), 
+               3px 3px 7px rgba(94, 104, 121, .188);
+}
+
+.btn-1-left:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+  transition-delay: .1s;
+}
+
+/* Button 2 */
+.btn-2-left {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+               3px 3px 5px 1px rgba(94, 104, 121, .288),
+               3px 3px 7px rgba(94, 104, 121, .188);
+  border-radius: 3px;
+}
+
+.btn-2-left:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+  transition-delay: .1s;
+}
+
+/* Button 3 */
+.btn-3-left {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+               3px 3px 5px 1px rgba(94, 104, 121, .288),
+               3px 3px 7px rgba(94, 104, 121, .188);
+  border-radius: 6px;
+}
+
+.btn-3-left:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+  transition-delay: .1s;
+}
+
+/* Button 4 */
+.btn-4-left {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+               3px 3px 5px 1px rgba(94, 104, 121, .288),
+               3px 3px 7px rgba(94, 104, 121, .188);
+  border-radius: 12px;
+}
+
+.btn-4-left:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+  transition-delay: .1s;
+}
+
+/* Button 5 */
+.btn-5-left {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+               3px 3px 5px 1px rgba(94, 104, 121, .288),
+               3px 3px 7px rgba(94, 104, 121, .188);
+  border-radius: 24px;
+}
+
+.btn-5-left:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+  transition-delay: .1s;
+}
+
+/* Button 6 */
+.btn-6-left {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+               3px 3px 5px 1px rgba(94, 104, 121, .288),
+               3px 3px 7px rgba(94, 104, 121, .188);
+  border-radius: 100px;
+}
+
+.btn-6-left:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+  transition-delay: .1s;
+}
+
+/* Button 7 */
+.btn-7-left {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+               3px 3px 5px 1px rgba(94, 104, 121, .288),
+               3px 3px 7px rgba(94, 104, 121, .188);
+  border-radius: 10px 100px / 120px;
+}
+
+.btn-7-left:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188);
+  transition-delay: .1s;
+}
+
+
+/* Button 8 square*/
+.btn-8-left {
+  width: 80px;
+  height: 80px;
+  font-size: 16px;
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px rgba(255, 255, 255, .78),
+               3px 3px 5px 1px rgba(94, 104, 121, .288),
+               3px 3px 7px rgba(94, 104, 121, .188);
+}
+
+.btn-8-left:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -5px -3px 7px 1px rgba(255, 255, 255, .88),
+              -5px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 5px 3px 7px 1px rgba(94, 104, 121, .288),
+              5px 3px 7px 1px rgba(94, 104, 121, .188);
+  transition-delay: .1s;
+}
+
+/* Button 9 rounded*/
+.btn-9-left {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: -3px -3px 5px 2px rgba(255, 255, 255, .88),
+              -3px -3px 7px 2px rgba(255, 255, 255, .78),
+               3px 3px 5px 2px rgba(94, 104, 121, .288),
+               3px 3px 7px 2px rgba(94, 104, 121, .188);
+}
+
+.btn-9-left:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 2px rgba(255, 255, 255, .88),
+              -3px -3px 7px 2px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 2px rgba(94, 104, 121, .288),
+              3px 3px 7px 2px rgba(94, 104, 121, .188);
+  transition-delay: .1s;
+}
+
+/* Button right */
+/* Button 1 */
+.btn-1-right {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px  rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+}
+
+.btn-1-right:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+  transition-delay: .1s;
+}
+
+/* Button 2 */
+.btn-2-right {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 3px;
+}
+
+.btn-2-right:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+  transition-delay: .1s;
+}
+
+/* Button 3 */
+.btn-3-right {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 6px;
+}
+
+.btn-3-right:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+  transition-delay: .1s;
+}
+
+/* Button 4 */
+.btn-4-right {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 12px;
+}
+
+.btn-4-right:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+  transition-delay: .1s;
+}
+
+/* Button 5 */
+.btn-5-right {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 24px;
+}
+
+.btn-5-right:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+  transition-delay: .1s;
+}
+
+/* Button 6 */
+.btn-6-right {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 100px;
+}
+
+.btn-6-right:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+  transition-delay: .1s;
+}
+
+/* Button 7 */
+.btn-7-right {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+  border-radius: 10px 100px / 120px;
+}
+
+.btn-7-right:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+  transition-delay: .1s;
+}
+
+
+/* Button 8 square*/
+.btn-8-right {
+  width: 80px;
+  height: 80px;
+  font-size: 16px;
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+}
+
+.btn-8-right:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+  transition-delay: .1s;
+}
+
+/* Button 9 rounded*/
+.btn-9-right {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1),
+              15px 15px 20px rgba(0, 0, 0, .1),
+              -15px -15px 20px rgba(236, 236, 236, 1),
+              inset -5px -5px 5px rgba(255, 255, 255, .5),
+              inset 5px 5px 5px rgba(0, 0, 0, .05);
+}
+
+.btn-9-right:hover {
+  color: rgb(59, 61, 61);
+  background: rgb(231, 233, 234);
+  box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
+              -3px -3px 7px 1px rgba(255, 255, 255, .78),
+              inset 3px 3px 5px 1px rgba(94, 104, 121, .288),
+              3px 3px 7px 1px rgba(94, 104, 121, .188),
+              0 0 0 3px rgba(255, 255, 255, 1);
+  transition-delay: .1s;
+}
