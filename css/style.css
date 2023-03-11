@@ -64,6 +64,7 @@ button {
   border: none;
   margin-bottom: 20px;
   margin-left: 10px;
+  /* outline-color: transparent; */
 }
 
 /* Button left */
@@ -77,7 +78,9 @@ button {
                3px 3px 7px rgba(94, 104, 121, .188);
 }
 
-.btn-1-left:hover {
+.btn-1-left:hover,
+.btn-1-left:focus,
+.btn-1-left:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -98,7 +101,9 @@ button {
   border-radius: 3px;
 }
 
-.btn-2-left:hover {
+.btn-2-left:hover,
+.btn-2-left:focus,
+.btn-2-left:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -119,7 +124,9 @@ button {
   border-radius: 6px;
 }
 
-.btn-3-left:hover {
+.btn-3-left:hover,
+.btn-3-left:focus,
+.btn-3-left:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -140,7 +147,9 @@ button {
   border-radius: 12px;
 }
 
-.btn-4-left:hover {
+.btn-4-left:hover,
+.btn-4-left:focus,
+.btn-4-left:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -161,7 +170,9 @@ button {
   border-radius: 24px;
 }
 
-.btn-5-left:hover {
+.btn-5-left:hover,
+.btn-5-left:focus,
+.btn-5-left:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -182,7 +193,9 @@ button {
   border-radius: 100px;
 }
 
-.btn-6-left:hover {
+.btn-6-left:hover,
+.btn-6-left:focus,
+.btn-6-left:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -203,7 +216,9 @@ button {
   border-radius: 10px 100px / 120px;
 }
 
-.btn-7-left:hover {
+.btn-7-left:hover,
+.btn-7-left:focus,
+.btn-7-left:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -227,7 +242,9 @@ button {
                3px 3px 7px rgba(94, 104, 121, .188);
 }
 
-.btn-8-left:hover {
+.btn-8-left:hover,
+.btn-8-left:focus,
+.btn-8-left:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -5px -3px 7px 1px rgba(255, 255, 255, .88),
@@ -251,7 +268,9 @@ button {
                3px 3px 7px 2px rgba(94, 104, 121, .188);
 }
 
-.btn-9-left:hover {
+.btn-9-left:hover,
+.btn-9-left:focus,
+.btn-9-left:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 2px rgba(255, 255, 255, .88),
@@ -273,7 +292,9 @@ button {
               inset 5px 5px 5px rgba(0, 0, 0, .05);
 }
 
-.btn-1-right:hover {
+.btn-1-right:hover,
+.btn-1-right:focus,
+.btn-1-right:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -296,7 +317,9 @@ button {
   border-radius: 3px;
 }
 
-.btn-2-right:hover {
+.btn-2-right:hover,
+.btn-2-right:focus,
+.btn-2-right:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -319,7 +342,9 @@ button {
   border-radius: 6px;
 }
 
-.btn-3-right:hover {
+.btn-3-right:hover,
+.btn-3-right:focus,
+.btn-3-right:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -342,7 +367,9 @@ button {
   border-radius: 12px;
 }
 
-.btn-4-right:hover {
+.btn-4-right:hover,
+.btn-4-right:focus,
+.btn-4-right:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -365,7 +392,9 @@ button {
   border-radius: 24px;
 }
 
-.btn-5-right:hover {
+.btn-5-right:hover,
+.btn-5-right:focus,
+.btn-5-right:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -388,7 +417,9 @@ button {
   border-radius: 100px;
 }
 
-.btn-6-right:hover {
+.btn-6-right:hover,
+.btn-6-right:focus,
+.btn-6-right:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -411,7 +442,9 @@ button {
   border-radius: 10px 100px / 120px;
 }
 
-.btn-7-right:hover {
+.btn-7-right:hover,
+.btn-7-right:focus,
+.btn-7-right:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -437,7 +470,9 @@ button {
               inset 5px 5px 5px rgba(0, 0, 0, .05);
 }
 
-.btn-8-right:hover {
+.btn-8-right:hover,
+.btn-8-right:focus,
+.btn-8-right:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
@@ -463,7 +498,9 @@ button {
               inset 5px 5px 5px rgba(0, 0, 0, .05);
 }
 
-.btn-9-right:hover {
+.btn-9-right:hover,
+.btn-9-right:focus,
+.btn-9-right:active {
   color: rgb(59, 61, 61);
   background: rgb(231, 233, 234);
   box-shadow: inset -3px -3px 5px 1px rgba(255, 255, 255, .88),
